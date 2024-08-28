@@ -18,3 +18,12 @@ body{
     height: auto; /* Сохраняет пропорции изображения */
     margin-right: 10px; /* Отступ между изображением и текстом */
 }
+
+.right-container {
+    background-color: #FEFEFEA0;
+    border: solid #FEFEFEA0;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
