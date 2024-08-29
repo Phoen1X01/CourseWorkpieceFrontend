@@ -6,6 +6,7 @@ body{
     background-image: url('../Picture/martin-martz-W0NRebXbsjM-unsplash.jpg'); /* подключение фоновой картинки*/
     background-size: 100%;
     font-size: 19px;
+    
 }
 
 .footer-link {
@@ -26,4 +27,5 @@ body{
     margin-top: 20px;
     
 }
+
 
