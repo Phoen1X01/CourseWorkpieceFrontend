@@ -35,8 +35,14 @@ table {
     
 }
 
-.container {
+.container-right {
     width: 50vh;
     height: 23vh;
     overflow: auto; 
+}
+
+.container-left {
+    width: 1000px;
+    height: 27vh;
+    overflow: auto;
 }

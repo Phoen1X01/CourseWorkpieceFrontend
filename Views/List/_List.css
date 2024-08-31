@@ -59,7 +59,7 @@ th {
     font-weight: 400;
 }
 
-.container {
+.container-big {
     width: 10000px;
     height: 75vh;
     overflow: auto; /* Всегда показывает полосы прокрутки */

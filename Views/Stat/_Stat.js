@@ -1,43 +1,30 @@
 var pieChartValues = [{
-    y: 39.16,
+    y: 25,
     exploded: true,
-    indexLabel: "Hello",
+    indexLabel: "",
     color: "#1f77b4"
-  }, {
-    y: 21.8,
-    indexLabel: "Hi",
+}, {
+    y: 25,
+    indexLabel: "",
     color: "#ff7f0e"
-  }, {
-    y: 21.45,
-    indexLabel: "pk",
+}, {
+    y: 25,
+    indexLabel: "",
     color: " #ffbb78"
-  }, {
-    y: 5.56,
-    indexLabel: "one",
+}, {
+    y: 25,
+    indexLabel: "",
     color: "#d62728"
-  }, {
-    y: 5.38,
-    indexLabel: "two",
-    color: "#98df8a"
-  }, {
-    y: 3.73,
-    indexLabel: "three",
-    color: "#bcbd22"
-  }, {
-    y: 2.92,
-    indexLabel: "four",
-    color: "#f7b6d2"
-  }];
-  renderPieChart(pieChartValues);
+},];
+renderPieChart(pieChartValues);
   
   function renderPieChart(values) {
   
     var chart = new CanvasJS.Chart("pieChart", {
-      backgroundColor: "white",
+      backgroundColor: "",
       colorSet: "colorSet2",
   
       title: {
-        text: "Pie Chart",
         fontFamily: "Verdana",
         fontSize: 25,
         fontWeight: "normal",
@@ -58,33 +45,61 @@ var pieChartValues = [{
     chart.render();
   }
   var columnChartValues = [{
-    y: 686.04,
-    label: "one",
+    y: 25,
+    label: "1",
     color: "#1f77b4"
   }, {
-    y: 381.84,
-    label: "two",
+    y: 12,
+    label: "2",
     color: "#ff7f0e"
   }, {
-    y: 375.76,
-    label: "three",
+    y: 16,
+    label: "3",
     color: " #ffbb78"
   }, {
-    y: 97.48,
-    label: "four",
+    y: 3,
+    label: "4",
     color: "#d62728"
   }, {
-    y: 94.2,
-    label: "five",
+    y: 43,
+    label: "5",
     color: "#98df8a"
   }, {
-    y: 65.28,
-    label: "Hi",
+    y: 33,
+    label: "6",
     color: "#bcbd22"
   }, {
-    y: 51.2,
-    label: "Hello",
+    y: 21,
+    label: "7",
     color: "#f7b6d2"
+  }, {
+    y: 16,
+    label: "8",
+    color: "#8AD9DF"
+  }, {
+    y: 51,
+    label: "9",
+    color: "#A98ADF"
+  }, {
+    y: 5,
+    label: "10",
+    color: "#DF8A93"
+  }, {
+    y: 8,
+    label: "11",
+    color: "#DF9F8A"
+  }, {
+    y: 12,
+    label: "12",
+    color: "#DFD78A"
+  }, {
+    y: 7,
+    label: "13",
+    color: "#DF8A8A"
+  }, {
+    y: 3,
+    label: "14",
+    color: "#6656DF"
   }];
   renderColumnChart(columnChartValues);
   
@@ -94,7 +109,6 @@ var pieChartValues = [{
       backgroundColor: "white",
       colorSet: "colorSet3",
       title: {
-        text: "Column Chart",
         fontFamily: "Verdana",
         fontSize: 25,
         fontWeight: "normal",
