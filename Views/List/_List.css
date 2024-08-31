@@ -1,15 +1,17 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 
-  background-image: url("../Picture/martin-martz-W0NRebXbsjM-unsplash.jpg"); /* подключение фоновой картинки*/
-  background-size: 100%;
-  font-size: 19px;
+    background-image: url("../Picture/martin-martz-W0NRebXbsjM-unsplash.jpg"); /* подключение фоновой картинки*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 17px;
 }
 
 .footer-link {
-  font-size: 15px;
+  font-size: 12px;
   margin-right: 60px;
 }
 
@@ -23,6 +25,7 @@ table {
   border-collapse: separate; /* Разделяем границы ячеек */
   border-spacing: 0 5px; /* Устанавливаем вертикальный отступ между строками */
 }
+
 
 .rounded-row th,
 .rounded-row td {
@@ -50,4 +53,14 @@ table {
 .rounded-row:last-child th:last-child,
 .rounded-row:last-child td:last-child {
   border-bottom-right-radius: 10px;
+}
+
+th {
+    font-weight: 400;
+}
+
+.container {
+    width: 10000px;
+    height: 75vh;
+    overflow: auto; /* Всегда показывает полосы прокрутки */
 }

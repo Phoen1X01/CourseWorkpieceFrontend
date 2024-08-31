@@ -11,16 +11,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous"
         />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-        <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet"
-        />
-        <!--подключение шрифта-->
-        <link rel="stylesheet" href="_List.css" />
+        
+        <link rel="stylesheet" href="_Stat.css" />
         <!--подключение css-->
     </head>
     <body>
@@ -44,6 +36,12 @@
                             <a class="nav-link" href="#">Статистика</a>
                         </li>
                     </ul>
+
+                    <div class="footer-link">
+                        <img src="../Picture/5a75cf3f-a0e6-4e3e-86a2-60675202e775.jpg">
+                        <a href="https://github.com/Phoen1X01" target="_blank">Powered by Phoen1X01</a> <!-- ефргет бланк открывает новую вкладку-->
+                    </div>
+                    
                     <form class="d-flex">
                         <button class="btn btn-primary" type="submit">Сформировать PDF</button>
                     </form>
@@ -51,15 +49,189 @@
             </div>
         </nav>
 
+        
+        <div class="container-fluid" style="margin-top: 1vh;"> <!--это добавление отступа в 1 процент-->
+            <div class="row">
+                <div class="col-md-3">
+                    <div
+                        class="container-fluid"
+                        style="
+                            margin-top: 20px;
+                            margin-left: 5px;
+                            padding:15px;
+                            background-color: #FEFEFE;
+                            border-radius: 15px;
+                            height: 85vh;
+                            ">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img
+                                src="../Picture/LogoCursWork.png"
+                                class="mb-4"
+                                style="width: 100%"
+                                />
+                                <div class="d-grid">
+                                    <div class="d-flex justify-content-center">
+                                        <p>Статистика за:</p>
+                                    </div>
+                                    <button type="button" class="btn btn-secondary ">День</button>
+                                    <button type="button" class="btn btn-secondary mt-3">Неделю</button>
+                                    <button type="button" class="btn btn-secondary mt-3">Месяц</button>
+                                    <button type="button" class="btn btn-secondary mt-3 mb-5">Год</button>
+                                    <button type="button" class="btn btn-danger mt-5 col-sm-6 offset-sm-3" >Выйти</button>
+                                </div><!-- Содержимое левого контейнера -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="container-fluid"
+                        style="
+                            margin-top: 20px;
+                            padding:15px;
+                            background-color: #FEFEFEA0;
+                            border-radius: 15px;
+                            height: 85vh;
+                            ">
+                            
+                            
+                            <div class="row">
+                                <div class="d-flex col-md-12">
+                                    <div class="d-flex col-md-3" style="
+                                    padding:15px;
+                                    background-color: #FEFEFE;
+                                    border-radius: 15px;
+                                    height: 28vh;
+                                    ">
+                                                
+                                                <div class=" d-flex col-md-12" style="height: 25vh;">
+                                                    <ol>
+                                                        <p>Метрики:</p>
+                                                        <li>Первый элемент</li>
+                                                        <li>Второй элемент</li>
+                                                        <li>Третий элемент</li>
+                                                        <li>Четвертый элемент</li>
+                                                        <li>Пятый элемент</li>
+                                                    </ol>
+                                                </div>
+                                    </div>
+                                    <div class="d-flex col-md-5 offset-md-1"
+                                                    style="
+                                                    padding:15px;
+                                                    background-color: #FEFEFE;
+                                                    border-radius: 15px;
+                                                    height: 35vh;
+                                                    ">
+                                                    
+                                                    <div class="d-flex col-md-12 container" style="height: 30vh;">
+                                                        <ol>
+                                                            <li>Первый элемент</li>
+                                                            <li>Второй элемент</li>
+                                                            <li>Третий элемент</li>
+                                                            <li>Четвертый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                        </ol>  
+                                                    </div>
+                                                    
+                                                </div> 
+                                            </div>   
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                                <!--<div class="row">
+                                    <div class="d-flex col-md-4" style="
+                                    padding:15px;
+                                    background-color: #FEFEFE;
+                                    border-radius: 15px;
+                                    height: 28vh;
+                                    ">
+                                                <div class="d-flex">
+                                                    <p>Метрики:</p>
+                                                </div>
+                                                    <div class="d-flex col-md-12" style="height: 25vh;">
+                                                        <ol>
+                                                            <li>Первый элемент</li>
+                                                            <li>Второй элемент</li>
+                                                            <li>Третий элемент</li>
+                                                            <li>Четвертый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                        </ol>
+                                                    </div>
+                                    </div>
+                                    <div class="d-flex col-md-5 offset-md-4"
+                                                    style="
+                                                    padding:15px;
+                                                    background-color: #FEFEFE;
+                                                    border-radius: 15px;
+                                                    height: 35vh;
+                                                    ">      
+                                                    <div class="d-flex">
+                                                        <p>Список учащихся:</p>
+                                                    </div>
+                                                    <div class="d-flex col-md-12 container" style="height: 25vh;">
+                                                        <ol>
+                                                            <li>Первый элемент</li>
+                                                            <li>Второй элемент</li>
+                                                            <li>Третий элемент</li>
+                                                            <li>Четвертый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                            <li>Пятый элемент</li>
+                                                        </ol>  
+                                                    </div>
+                                                    
+                                                </div> 
+                                            </div>   
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>-->
 
+                                <div class="container-fluid">
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                        <div id="pieChart" style="height: 360px; width: 100%;">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div id="columnChart" style="height: 360px; width: 100%;">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                <!--вставить график снизу -->
 
+                                
+                            </div>
+                        </div>
+                        
 
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
 
-
-
-
+        <script srt="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        
+        <script src="../Stat/_Stat.js"></script>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
