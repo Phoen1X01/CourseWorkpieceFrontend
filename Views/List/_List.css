@@ -64,3 +64,21 @@ th {
     height: 75vh;
     overflow: auto; /* Всегда показывает полосы прокрутки */
 }
+
+.calendar {
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.calendar th, .calendar td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.calendar .selected {
+    background-color: #007bff;
+    color: #fff;
+}
